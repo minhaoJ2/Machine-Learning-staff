@@ -1,3 +1,9 @@
+"""
+This is an implementation of Recurrent Neural Network from scratch with numpy library.
+For the construction, it uses hyperbolic tangent function for the activation function of the hidden layer.
+And it uses an affine function composed with a softmax layer. The loss training the model is cross-entropy loss.
+"""
+
 import numpy as np
 
 def to_one_hot(y, k):
